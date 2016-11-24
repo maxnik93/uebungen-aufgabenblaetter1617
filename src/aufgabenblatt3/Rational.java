@@ -1,7 +1,11 @@
 package aufgabenblatt3;
 
 class Rational {
+	
+	//Sehr gut soweit. Nur ein, zwei kleine Anmerkungen :)
 
+	
+	//Ganzzahl integer hätte für die Bruchdarstellung gereicht.
 	double zaehler;
 	double nenner; 
 	
@@ -51,7 +55,7 @@ class Rational {
 			if (reducedZaehler % i==0 && reducedNenner % i==0){
 				reducedZaehler=reducedZaehler/i;
 				reducedNenner=reducedNenner/i;
-								i=i-1;			
+								i=i-1;		//Formatierung!		
 			}
 		}
 	
