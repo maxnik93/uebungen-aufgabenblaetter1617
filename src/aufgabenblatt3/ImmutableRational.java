@@ -1,6 +1,10 @@
 package aufgabenblatt3;
 
 class ImmutableRational extends Rational{
+	
+	//Hier sollten die Methoden eigentlich gerade so ausgelegt werden, dass bei
+	//jedem Aufruf ein neues Immuatable Objekt erzeugt wird, statt das aktuelle 
+	//zu verändern. 
 
 	double zaehler;
 	double nenner; 
